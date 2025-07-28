@@ -1,0 +1,11 @@
+Win32/
+*.dproj.local
+*.identcache
+*.stat
+*.~*    
+*.exe
+*.dll
+*.dcu
+*.obj
+*.pch
+*.cache
