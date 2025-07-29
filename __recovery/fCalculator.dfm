@@ -211,6 +211,7 @@ object Calculator: TCalculator
     Font.Style = [fsBold]
     ParentFont = False
     TabOrder = 12
+    OnClick = Btn_PlusMinusClick
   end
   object Btn_Subtraction: TButton
     Left = 197

@@ -12,10 +12,6 @@ type TCalc = class
     procedure SetValor02(dValor: Double);
     function GetValor01: double;
     function GetValor02: double;
-    procedure SetStoredValor01(bValor: Boolean);
-    procedure SetStoredValor02(bValor: Boolean);
-    function GetStoredValor01: Boolean;
-    function GetStoredValor02: Boolean;
     function Add: double;
     function Substract: double;
     function Multiply: double;

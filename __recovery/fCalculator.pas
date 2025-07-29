@@ -41,6 +41,7 @@ type
     procedure Btn_09Click(Sender: TObject);
     procedure Btn_08Click(Sender: TObject);
     procedure Btn_07Click(Sender: TObject);
+    procedure Btn_PlusMinusClick(Sender: TObject);
   private
     Calc : TCalc;
     FStoredValue01, FStoredValue02: Boolean;
@@ -127,6 +128,11 @@ begin
   FStoredValue01 := False;
   Calc.SetValor01(0);
   Calc.SetValor02(0);
+end;
+
+procedure TCalculator.Btn_PlusMinusClick(Sender: TObject);
+begin
+
 end;
 
 procedure TCalculator.Btn_SubtractionClick(Sender: TObject);
